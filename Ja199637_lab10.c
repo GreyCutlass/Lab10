@@ -133,10 +133,11 @@ struct Trie *createTrie()
     {
 
         root->children[index] = NULL;
-        root->count = 0;
-
+        
 
     }
+    root->count = 0;
+
 
     return root;
 
